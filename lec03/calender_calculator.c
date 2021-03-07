@@ -43,7 +43,7 @@ int main() {
             if (d > 31) d = 1, m += 1;
         } break;
         case 11: {
-            if (d > 31) d = 1, m += 1;
+            if (d > 30) d = 1, m += 1;
         } break;
         case 12: {
             if (d > 31) d = 1, m += 1;
