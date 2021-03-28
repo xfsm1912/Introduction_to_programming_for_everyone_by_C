@@ -29,8 +29,8 @@ int max_matrix_area(int *h, int n) {
 }
 
 int main() {
-    int h[] = {2, 1, 4, 5, 1, 3, 3};
-    int n = sizeof(h) / sizeof(int);
+    int h[] = {-1, 2, 1, 4, 5, 1, 3, 3, -1};
+    int n = sizeof(h) / sizeof(int) - 2;
     int res;
     res = max_matrix_area(h, n);
     printf("最大面积为：%d\n", res);
